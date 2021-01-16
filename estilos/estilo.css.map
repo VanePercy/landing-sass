@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "estilo.scss",
+        "partials/_variables.scss",
+        "partials/_baserules.scss",
+        "partials/_header.scss",
+        "partials/_main.scss",
+        "partials/_footer.scss"
+    ],
+    "names": [],
+    "file": "estilo.css"
+}

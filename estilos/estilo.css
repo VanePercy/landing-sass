@@ -1,1 +1,34 @@
-/* No CSS *//*# sourceMappingURL=estilo.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  background-color: #a0b9f8;
+}
+
+.cont-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px 10px 10px 10px;
+}
+
+.header-logo nav li {
+  left: 20px;
+  top: 20px;
+  padding: 20px 20px;
+  width: 100%;
+  display: inline;
+  padding-left: 15px;
+  list-style: none;
+  line-height: 60px;
+}
+/*# sourceMappingURL=estilo.css.map */

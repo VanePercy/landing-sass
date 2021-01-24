@@ -1,0 +1,123 @@
+.contenido {
+  height: 100%;
+  margin: 2em;
+  background-color: rgba(250, 235, 215, 0.644);
+  border-radius: 1em;
+    
+}
+
+.seccion {
+  width: 60%;
+  height: 100%;
+  border-radius: 1em;
+  float: left;
+  margin: 1em;
+  
+ 
+  .foto img {
+    
+    width: 20%;
+    height: 15%;
+    border-radius: 50%;
+    margin: 1em;
+    
+  }
+  .facebook,
+  .instagram,
+  .linkedin {
+    display: inline-block;
+    border: 1px solid gray;
+  }
+}
+
+.seccion {
+
+  p {
+    margin: 2em;
+    padding: 2em;
+  }
+
+  .sponsor {
+
+    font-size: x-large;
+    height: 20%;
+    margin: 1em;
+
+  }
+
+  .sp1, .sp2, .sp3 {
+
+    display: inline-block;
+    border: 1px solid gray;
+    height: 50px;
+    width: 50px;
+    margin: 1em;
+
+  }
+}
+.aside {
+  height: 95%;
+  width: 35%;
+  float: right;
+  margin: 1em;
+  form {
+    border-radius: 1em;
+    padding: 10px;
+    width: 300px;
+    margin: 0 auto;
+    background: #b2bec3;
+  }
+  label,
+  input,
+  button {
+    width: 250px;
+    display: block;
+    margin-top: 3px;
+    margin: 1em;
+    border-radius: 1em;
+  }
+
+  button[type="submit"] {
+    @extend %button;
+    background: $background-primary;
+  }
+
+  input {
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin: 1em;
+    text-align: center;
+  }
+}
+
+.articulo {
+  width: 96%;
+  height: 50%;
+  border-radius: 1em;
+  margin: 1em;
+  text-align: center;
+  h1 {
+    font-size: 45px;
+    margin: 1em;
+  }
+  p {
+    margin: 1em;
+    font-size: 20px;
+  }
+}
+
+%button {
+  border-radius: 15px;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  color: #fff;
+  filter: brightness(90%);
+  /*operador &*/
+  &:hover {
+    filter: brightness(110%);
+  }
+}

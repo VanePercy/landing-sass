@@ -1,89 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./estilos/estilo.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos/estilo.css" />
     <title>Oradores</title>
-</head>
-<body>
-    <div class="cont-oradores">
-      <div class="cont-header">
-        <header class="header-logo">
-          <img src="./assets/owasp-logo.jpeg" alt="" />
-  
-          <nav >
-            <ul>
-              <li><a href="./index.html">Inicio</a></li>
-              <li><a href="./oradores.html">Oradores</a></li>
-              <li><a href="./como-llegar.html">Cómo llegar</a></li>
-              <li><a href="./sponsors.html">Sponsors</a></li>
-            </ul>
-          </nav>
-        </header>
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="header"></div>
+      <div class="navegacion">
+        <nav>
+          <ul>
+            <li><a class="active" href="./index.html">Inicio</a></li>
+            <li><a href="./oradores.html">Oradores</a></li>
+            <li><a href="./como-llegar.html">Cómo llegar</a></li>
+            <li><a href="./sponsors.html">Sponsors</a></li>
+          </ul>
+        </nav>
       </div>
-        <main class="main-oradores">
-          <section class="sec-oradores">
-            <article >
-              <h2>Oradores</h2>
-                <div class="oradores">
-                    
-                  <div>
-                      <img src="https://picsum.photos/200" alt="">
-                      <h4>Nombre</h4>
-                      <p>Cargo <br>
-                      Charla</p>
-                      <a href="http://">Facebook</a>
-                      <a href="http://">Instagram</a>
-                      <a href="http://">Linkedlin</a>
-                  </div>
-                  <div>
-                      <img src="https://picsum.photos/200" alt="">
-                      <h4>Nombre</h4>
-                         <p>Cargo <br>
-                         Charla</p>
-                         <a href="http://">Facebook</a>
-                         <a href="http://">Instagram</a>
-                         <a href="http://">Linkedlin</a>
-                  </div>
-                  <div>
-                      <img src="https://picsum.photos/200" alt="">
-                      <h4>Nombre</h4>
-                         <p>Cargo <br>
-                         Charla</p>
-                         <a href="http://">Facebook</a>
-                         <a href="http://">Instagram</a>
-                         <a href="http://">Linkedlin</a>
-                  </div>
-                </div>
-  
-            </article>
-          </section>
-          <section class="sec-formulario-or">
-              <h2>Regístrate</h2>
-            <form action="" class="formulario-or">
-                <label for="nombre">Nombre</label>
-                <input type="text" name="nombre" id="nombre" placeholder="Juan">
-  
-                <label for="apellido">Apellido</label>
-                <input type="text" name="apellido" id="apellido" placeholder="Rodríguez">
-  
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="juanrodriguez@gmail.com" required>
-  
-                <label for="telefono">Teléfono</label>
-                <input type="number" name="telefono" id="telefono" placeholder="4480707">
-  
-                <button class="boton" type="submit">Enviar</button>
-  
-            </form>
-          </section>
-        </main>
-  
-        <footer class="footer">
-            <h4>OWASP</h4>
-            <p>Todos los derechos reservados  - 2021</p>
-        </footer>
+      <div class="contenido">
+        <div class="seccion">
+          <article class="articulo">
+            <h1>Oradores</h1>
+            <!--orador 1-->
+            <div class="foto">
+              <img
+                src="https://i.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U"
+                alt=""
+              />
+              <p>Nombre: John Doe <br>
+                Charla: Seguridad en aplicaciones Web</p>
+             <div class="facebook">
+               <p>F</p>
+             </div>
+
+             <div class="instagram">
+               <p>I</p>
+             </div>
+
+             <div class="linkedin">
+               <p>L</p>
+             </div>
+            </div>
+            
+
+            <!--orador 2-->
+            <div class="foto">
+                <img
+                  src="https://i.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U"
+                  alt=""
+                />
+
+                <p>Nombre: Maya Farrow <br>
+                    Charla: Software Composition Analysis</p>
+                 <div class="facebook">
+                   <p>F</p>
+                 </div>
+   
+                 <div class="instagram">
+                   <p>I</p>
+                 </div>
+   
+                 <div class="linkedin">
+                   <p>L</p>
+                 </div>
+              </div>
+             
+          </article>
+        </div>
+        <div class="aside">
+          <h2>Regístrate</h2>
+          <form action="">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Juan" />
+
+            <label for="apellido">Apellido</label>
+            <input
+              type="text"
+              name="apellido"
+              id="apellido"
+              placeholder="Rodríguez"
+            />
+
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="juanrodriguez@gmail.com"
+              required
+            />
+
+            <label for="telefono">Teléfono</label>
+            <input
+              type="number"
+              name="telefono"
+              id="telefono"
+              placeholder="4480707"
+            />
+
+            <button class="boton" type="submit">Enviar</button>
+          </form>
+        </div>
       </div>
-</body>
+      <div class="footer">
+        <p id="derechos">Todos los derechos reservados</p>
+        <p id="autor">Percy 2021</p>
+      </div>
+    </div>
+  </body>
 </html>

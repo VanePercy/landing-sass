@@ -3,50 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./estilos/estilo.css" />
-    <title>OWASP FOUNDATION</title>
+    <link rel="stylesheet" href="estilos/estilo.css" />
+    <title>Landing Acamica</title>
   </head>
   <body>
-    <div class="cont-principal">
-      <div class="cont-header">
-      <header class="header-logo">
-        <img src="./assets/owasp-logo.jpeg" alt="" />
+    <div class="contenedor">
+      <div class="header"></div>
+      <div class="navegacion">
         <nav>
           <ul>
-            <li><a href="./index.html">Inicio</a></li>
+            <li><a class="active" href="./index.html">Inicio</a></li>
             <li><a href="./oradores.html">Oradores</a></li>
             <li><a href="./como-llegar.html">Cómo llegar</a></li>
             <li><a href="./sponsors.html">Sponsors</a></li>
           </ul>
         </nav>
-      </header>
-    </div>
-      <main class="main-evento">
-        <section class="sec-evento">
-          <article>
-            <h2>Título del evento</h2>
-            <div class="cont-evento">
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Architecto quasi odit odio earum, error dolore sit nobis. Qui
-                accusantium quae neque, dolorum labore quasi autem quidem
-                distinctio molestias laudantium quas numquam dignissimos ipsam?
-                Facilis, quos nam non, possimus distinctio obcaecati eligendi
-                nobis quibusdam eveniet modi fugiat ducimus dolores deleniti
-                maxime molestias impedit magnam quaerat tenetur voluptatem.
-                Soluta, nemo modi! Doloremque perspiciatis, itaque ut officiis
-                totam voluptatibus cum ipsa, ipsam dolorum atque consequuntur
-                minima velit fugit suscipit cupiditate dignissimos illum ea in
-                quibusdam odit? Tenetur dolores aperiam, voluptatibus deleniti
-                necessitatibus libero voluptates provident dolorum, sint laborum
-                id sit dignissimos quas ab.
-              </p>
-            </div>
+      </div>
+      <div class="contenido">
+        <div class="seccion">
+          <article class="articulo">
+            <h1>Code Warrior <br> Programacion Segura Live</h1>
+            <p>
+              En este proximo evento un live de coding seguro, en el que
+              usaremos la Plataforma codewarrior para resolver los problemas de
+              codigo que se nos presenten, y podamos entender y aprender a
+              solucionar problemas de seguridad en nuestro codigo como SQL
+              Injections, XSS, LFI, etc... El lenguaje de preferencia será Java,
+              pero podemos cambiar lenguajes y probar nuestras destrezas.
+            </p>
           </article>
-        </section>
-        <section class="sec-formulario-ev">
+        </div>
+        <div class="aside">
           <h2>Regístrate</h2>
-          <form action="" class="formulario-ev">
+          <form action="">
             <label for="nombre">Nombre</label>
             <input type="text" name="nombre" id="nombre" placeholder="Juan" />
 
@@ -77,13 +66,14 @@
 
             <button class="boton" type="submit">Enviar</button>
           </form>
-        </section>
-      </main>
-
-      <footer class="footer">
-        <h4>OWASP</h4>
-        <p>Todos los derechos reservados - 2021</p>
-      </footer>
+        </div>
+      </div>
+      <div class="footer">
+        <p id="derechos">Todos los derechos reservados <br>
+          Percy 2021
+        </p>
+       
+      </div>
     </div>
   </body>
 </html>

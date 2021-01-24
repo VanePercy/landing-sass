@@ -2,7 +2,8 @@
   height: 35%;
   border-radius: 1em;
   margin: 1em;
-  background: url('/assets/owasp.png') center/cover;
+  display: flex;
+  justify-content: center;
 }
 
 .navegacion {
@@ -13,7 +14,7 @@
   justify-content: center;
   background-color: #dfe6e9;
   nav {
-  font-family: "Oswald", sans-serif;
+    font-family: "Oswald", sans-serif;
   }
   ul {
     list-style: none;
@@ -31,13 +32,10 @@
     text-decoration: none;
     font-size: 20px;
     color: black;
-    
   }
 
   a:hover {
     background-color: rgb(46, 185, 132);
     color: black;
-    
   }
-
 }

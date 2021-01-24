@@ -1,12 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/estilo.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos/estilo.css" />
     <title>Cómo llegar</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="header"></div>
+      <div class="navegacion">
+        <nav>
+          <ul>
+            <li><a class="active" href="./index.html">Inicio</a></li>
+            <li><a href="./oradores.html">Oradores</a></li>
+            <li><a href="./como-llegar.html">Cómo llegar</a></li>
+            <li><a href="./sponsors.html">Sponsors</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="contenido">
+        <div class="seccion">
+          <article class="articulo">
+            <h1>Cómo llegar</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+              sapiente laudantium tempora, magnam expedita rerum? Officiis
+              expedita dolor ad facilis!
+            </p>
+
+            <div class="como-llegar">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15863.546879822748!2d-75.53931505!3d6.2786209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1611447809588!5m2!1ses!2sco"
+                width="600"
+                height="450"
+                frameborder="0"
+                style="border: 0"
+                allowfullscreen=""
+                aria-hidden="false"
+                tabindex="0"
+              ></iframe>
+            </div>
+          </article>
+        </div>
+        <div class="aside">
+          <h2>Regístrate</h2>
+          <form action="">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Juan" />
+
+            <label for="apellido">Apellido</label>
+            <input
+              type="text"
+              name="apellido"
+              id="apellido"
+              placeholder="Rodríguez"
+            />
+
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="juanrodriguez@gmail.com"
+              required
+            />
+
+            <label for="telefono">Teléfono</label>
+            <input
+              type="number"
+              name="telefono"
+              id="telefono"
+              placeholder="4480707"
+            />
+
+            <button class="boton" type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer">
+        <p id="derechos">Todos los derechos reservados</p>
+        <p id="autor">Percy 2021</p>
+      </div>
+    </div>
+  </body>
 </html>
